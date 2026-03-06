@@ -1,0 +1,28 @@
+.bar{
+    display:flex;
+    align-items:center;
+    margin-left: 10px ;
+}
+
+.search{
+    width:500px;
+    height:35px;
+    border:none;
+    padding:0 13px;
+    outline:none;
+    font-size: 15px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.btn{
+    height:35px;
+    border:none;
+    padding:0 15px;
+    background:white;
+    color:#f05e1f;
+    cursor:pointer;
+    font-weight:bold;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
