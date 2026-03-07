@@ -6,7 +6,6 @@ export const Logo = () => {
         width: "150px",
         height: "auto",
         filter: "brightness(0) invert(1)"
-
     }
 
     return(
