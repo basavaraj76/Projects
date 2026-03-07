@@ -1,0 +1,9 @@
+
+.cart{
+    border: none;
+    padding: 6px 25px;
+    background: transparent;
+}
+.cart:hover{
+    border: 1px solid white;
+}
