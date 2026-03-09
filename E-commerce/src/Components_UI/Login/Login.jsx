@@ -1,3 +1,4 @@
+import { Link, useNavigate } from "react-router-dom"
 import { LoginPage } from "../../Pages/Login/LoginPage"
 export const Login = () =>{
     const styles ={
@@ -11,10 +12,10 @@ export const Login = () =>{
         fontWeight: "bold",
         margin:"10px"
     }
-    const openLoginPage = () => {
-        <LoginPage></LoginPage>
-    }
+    
     return(
-        <button style={styles} onClick={openLoginPage}>Login</button>
+        <Link to="/login">
+        <button style={styles} >Login</button>
+        </Link>
     );
 }
