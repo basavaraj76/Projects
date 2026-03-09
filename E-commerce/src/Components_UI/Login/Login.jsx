@@ -1,4 +1,4 @@
-
+import { LoginPage } from "../../Pages/Login/LoginPage"
 export const Login = () =>{
     const styles ={
         border: "none",
@@ -10,10 +10,11 @@ export const Login = () =>{
         cursor: "pointer",
         fontWeight: "bold",
         margin:"10px"
-
-
+    }
+    const openLoginPage = () => {
+        <LoginPage></LoginPage>
     }
     return(
-        <button style={styles}>Login</button>
+        <button style={styles} onClick={openLoginPage}>Login</button>
     );
 }

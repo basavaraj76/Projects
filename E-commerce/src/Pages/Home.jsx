@@ -31,7 +31,7 @@ export const Home = () =>{
 
             <div>
                 {
-                products.map(product => 
+                products.map(product =>
                 <div className={styles.card} key={product.product_id}>
                     <img src="#" alt="" />
                     <p>Name : {product.product_name} </p>
@@ -39,7 +39,7 @@ export const Home = () =>{
                     <button>Add Cart</button>
                 </div> )
                 }
-            </div> 
+            </div>
 
 
             
