@@ -1,0 +1,47 @@
+.fullLayout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h1{
+    background-color: #f05e1f;
+    color: white;
+    padding: 10px;
+}
+.layout{
+    max-width: 40%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    
+}
+.inputAdd{
+    outline: none;
+    padding: 0.3em;
+    margin-top: 5px;
+}
+.btnAddSubmit{
+        padding: 10px;
+        background-color: #f05e1f;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 1em;
+        border-radius: 10px;
+        grid-column: span 2;
+}
+.checkboxLabel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    white-space: nowrap; 
+    
+    
+}
