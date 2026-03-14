@@ -33,7 +33,7 @@ export const Home = () =>{
                 {
                 products.map(product =>
                 <div className={styles.card} key={product.product_id}>
-                    <img src="#" alt="" />
+                    <img className={styles.image} src={`http://localhost:8080/Images/${product.image}`} alt={product.product_name} />
                     <p>Name : {product.product_name} </p>
                     <p>Price : {product.price} </p>
                     <button>Add Cart</button>
